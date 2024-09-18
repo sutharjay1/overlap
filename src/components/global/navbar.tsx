@@ -106,8 +106,12 @@ const Navbar = async () => {
               >
                 <div className="flex items-center gap-2">
                   <IoLogoApple size={28} />
-                  Download{" "}
-                  <span className="hidden md:flex">on the App Store</span>
+                  <span className="flex items-center">
+                    <span>Download</span>
+                    <span className="hidden md:inline">
+                      &nbsp;on the App Store
+                    </span>
+                  </span>
                 </div>
               </Link>
             </Button>
