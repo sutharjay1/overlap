@@ -18,7 +18,7 @@ const FeatureCard = ({ title, subtitle, inViewMargin }: FeatureItemProps) => {
   return (
     <Motion className="mb-8 w-full" inView inViewMargin={inViewMargin}>
       <div className="mx-auto w-full p-6">
-        <h3 className="mb-2 w-full text-center text-4xl font-bold text-[#ff5500]/85 md:text-5xl">
+        <h3 className="mb-2 w-full text-balance text-center text-4xl font-bold text-[#ff5500]/85 md:text-5xl">
           {title}
         </h3>
         <p className="text-center text-3xl text-gray-700">{subtitle}</p>

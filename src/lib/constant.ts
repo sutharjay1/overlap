@@ -34,7 +34,7 @@ export const FEATURES: Features[] = [
     },
   },
   {
-    title: "Powerful playback controls",
+    title: "Powerful controls",
     subtitle: "to customize your listening.",
     up: 20,
     inViewMargin: {

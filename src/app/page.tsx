@@ -243,6 +243,7 @@ export default function Home() {
                 height={200}
                 draggable={false}
                 loading="lazy"
+                quality={100}
               />
             </div>
 
@@ -257,6 +258,7 @@ export default function Home() {
                 height={559}
                 draggable={false}
                 loading="lazy"
+                quality={100}
               />
             </div>
           </div>
@@ -384,7 +386,7 @@ export default function Home() {
       <footer className="relative z-50 overflow-hidden bg-[#140300] px-4 py-8 text-white sm:px-6 lg:px-8">
         <div className="relative z-50 h-60 w-full" aria-hidden="true">
           <div className="absolute left-1/2 -z-10 -translate-x-1/2 translate-y-1/4 text-center text-[348px] font-bold leading-none">
-            <span className="select-none bg-gradient-to-b from-transparent to-neutral-700/50 bg-clip-text text-transparent shadow-text">
+            <span className="shadow-text select-none bg-gradient-to-b from-transparent to-neutral-700/50 bg-clip-text text-transparent">
               overlap
             </span>
           </div>
