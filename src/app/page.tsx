@@ -4,14 +4,16 @@ import CommunityFavFeature from "@/components/global/community-fav-feature";
 import Icon from "@/components/global/icon";
 import Navbar from "@/components/global/navbar";
 import { Button } from "@/components/ui/button";
-import { geistMono } from "@/lib/font";
+import { geistMono, geistSans } from "@/lib/font";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import { IoLogoApple } from "react-icons/io";
 
 export default function Home() {
   return (
-    <main className="relative min-h-screen bg-background">
+    <main
+      className={cn("relative min-h-screen bg-background", geistSans.className)}
+    >
       <Navbar />
       <div className="absolute inset-0 h-screen [background:radial-gradient(125%_125%_at_50%_10%,transparent_35%,#ff8000_500%)]"></div>
 
