@@ -17,7 +17,7 @@ type FeatureItemProps = {
 const FeatureCard = ({ title, subtitle, inViewMargin }: FeatureItemProps) => {
   return (
     <Motion className="mb-8 w-full" inView inViewMargin={inViewMargin}>
-      <div className="mx-auto w-full p-6">
+      <div className="mx-auto w-full px-2 py-6 sm:px-6">
         <h3 className="mb-2 w-full text-balance text-center text-4xl font-bold text-[#ff5500]/85 md:text-5xl">
           {title}
         </h3>
@@ -29,7 +29,7 @@ const FeatureCard = ({ title, subtitle, inViewMargin }: FeatureItemProps) => {
 
 const App = () => {
   return (
-    <section className="px-4 py-8 sm:px-6 lg:px-8">
+    <section className="py-8 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-5xl">
         <h2 className="mb-8 text-center text-3xl font-bold text-gray-800">
           🔥 Community Favorite Features
