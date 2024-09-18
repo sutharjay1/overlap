@@ -9,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        text: "inset 0px -5px 10px 0px rgba(0, 0, 0, 0.8)",
+      },
       colors: {
         body: "hsl(var(--body))",
         background: "hsl(var(--background))",

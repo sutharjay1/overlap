@@ -17,7 +17,7 @@ const Logo: React.FC<LogoProps> = ({ className, width = 276, height = 40 }) => {
         // src={theme === "light" ? "/logo-dark.svg" : "/logo-light.svg"}
         src="/logo.svg"
         alt="Overlap"
-        className={cn("mx-auto mb-2", className)}
+        className={cn("mx-auto", className)}
         draggable={false}
         width={width}
         height={height}
