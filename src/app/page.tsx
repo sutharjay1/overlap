@@ -1,14 +1,13 @@
 import Image from "next/image";
 
+import CommunityFavFeature from "@/components/global/community-fav-feature";
 import Icon from "@/components/global/icon";
 import Navbar from "@/components/global/navbar";
+import { Button } from "@/components/ui/button";
 import { geistMono } from "@/lib/font";
 import { cn } from "@/lib/utils";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Apple, AppleIcon } from "lucide-react";
 import { IoLogoApple } from "react-icons/io";
-import CommunityFavFeature from "@/components/global/community-fav-feature";
 
 export default function Home() {
   return (
@@ -194,7 +193,7 @@ export default function Home() {
               🙏 How You Can Help
             </h2>
             <ul className="mb-8 space-y-4 text-lg text-gray-700">
-              <li>Try Overlap: It's available on the App Store.</li>
+              <li>Try Overlap: It&pros;s available on the App Store.</li>
               <li>Feedback: Book a time to share your thoughts with us.</li>
               <li>Share it: If you like it, make it your go-to podcast app.</li>
               <li>Follow: Join us on Twitter.</li>

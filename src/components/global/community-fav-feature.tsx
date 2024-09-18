@@ -25,12 +25,7 @@ type Features = {
   };
 };
 
-const FeatureCard = ({
-  title,
-  subtitle,
-  inViewMargin,
-  up,
-}: FeatureItemProps) => {
+const FeatureCard = ({ title, subtitle, inViewMargin }: FeatureItemProps) => {
   return (
     <Motion className="mb-8 w-full" inView inViewMargin={inViewMargin}>
       <div className="mx-auto w-full p-6">
