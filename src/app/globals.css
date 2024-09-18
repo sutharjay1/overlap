@@ -7,7 +7,6 @@
   --foreground: #171717;
 }
 
-
 body {
   color: var(--foreground);
   background: var(--background);
@@ -22,6 +21,7 @@ body {
 
 @layer base {
   :root {
+    --body: 9 100% 4%;
     --background: 20 33% 99%;
     --foreground: 20 76% 5%;
     --muted: 20 37% 90%;
@@ -43,11 +43,7 @@ body {
     --ring: 20 100% 50%;
     --radius: 0.5rem;
   }
-
-
 }
-
-
 
 @layer base {
   * {
@@ -59,10 +55,7 @@ body {
   }
 }
 
-
-
-
-.gridPattern { 
+.gridPattern {
   width: 100%;
   height: 100%;
   background-size: cover;

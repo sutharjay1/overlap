@@ -32,7 +32,7 @@ const MaxWidthWrapper: React.FC<MaxWidthWrapperProps> = ({
   return (
     <div
       className={cn(
-        "w-full h-full mx-auto",
+        "mx-auto h-full w-full",
         {
           "max-w-8xl": maxw === "max-w-8xl",
           "max-w-7xl": maxw === "max-w-7xl",
@@ -48,7 +48,7 @@ const MaxWidthWrapper: React.FC<MaxWidthWrapperProps> = ({
           "px-0": padding === "none",
           "px-2 sm:px-6 md:px-8": padding === "small",
           "px-4 sm:px-8 md:px-16": padding === "medium",
-          "px-6 sm:px-12  md:px-24": padding === "large",
+          "px-6 sm:px-12 md:px-24": padding === "large",
         },
         {
           "py-0": paddingY === "none",
@@ -62,7 +62,7 @@ const MaxWidthWrapper: React.FC<MaxWidthWrapperProps> = ({
           "pt-10 sm:pt-14 md:pt-24": paddingTop === "medium",
           "pt-48": paddingTop === "large",
         },
-        className
+        className,
       )}
       id={id}
     >
