@@ -383,9 +383,9 @@ export default function Home() {
         </svg>
       </section>
 
-      <footer className="relative z-50 overflow-hidden bg-[#140300] px-4 py-8 text-white sm:px-6 lg:px-8">
-        <div className="relative z-50 h-60 w-full" aria-hidden="true">
-          <div className="absolute left-1/2 -z-10 -translate-x-1/2 translate-y-1/4 text-center text-[348px] font-bold leading-none">
+      <footer className="relative overflow-hidden bg-[#140300] px-4 py-8 text-white sm:px-6 lg:px-8">
+        <div className="relative z-40 h-60 w-full" aria-hidden="true">
+          <div className="absolute left-1/2 -z-10 -translate-x-1/2 translate-y-[16%] text-center text-[348px] font-bold leading-none">
             <span className="shadow-text select-none bg-gradient-to-b from-transparent to-neutral-700/50 bg-clip-text text-transparent">
               overlap
             </span>
@@ -398,9 +398,14 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="absolute left-0 right-0 top-5 mx-auto w-full max-w-5xl text-center">
-          <p className="mb-4">© 2023 Overlap. All rights reserved.</p>
-          <Link href="/privacypolicy" className="text-blue-500 hover:underline">
+        <div className="absolute left-0 right-0 top-5 z-50 mx-auto w-full max-w-5xl text-center">
+          <p className="mb-4">
+            © {new Date().getFullYear()} Overlap. All rights reserved.
+          </p>
+          <Link
+            href="/privacypolicy"
+            className="text-primary transition-all ease-in-out hover:underline hover:underline-offset-4"
+          >
             View our Privacy Policy
           </Link>
         </div>
